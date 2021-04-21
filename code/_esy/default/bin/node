@@ -1,0 +1,4 @@
+#!/bin/sh
+export ESY__NODE_BIN_PATH="/home/dpsynth/source/ocaml-crud/code/_esy/default/bin"
+exec "/home/dpsynth/.nvm/versions/node/v15.13.0/bin/node" -r "/home/dpsynth/source/ocaml-crud/code/_esy/default/pnp.js" "$@"
+              

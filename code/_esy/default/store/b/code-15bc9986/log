@@ -1,0 +1,293 @@
+# /home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__dune-opam__c__2.8.5-3e8e4c72/bin/dune exec ./crud.ml
+# OCAMLPARAM: unset
+# Workspace root: /home/dpsynth/source/ocaml-crud/code
+$ /usr/bin/nproc > /tmp/dune3c4f92.output 2> /dev/null
+# Auto-detected concurrency: 12
+# disable binary cache
+$ /home/dpsynth/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin/ocamlc.opt -config > /tmp/dune4fc438.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some
+#        External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/lib/ocaml"
+#  ; ocaml_bin =
+#      External
+#        "/home/dpsynth/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin/ocaml"
+#  ; ocamlc =
+#      External
+#        "/home/dpsynth/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/home/dpsynth/.opam/default/lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "/home/dpsynth/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/home/dpsynth/source/ocaml-crud/code"
+#        ; "INSIDE_DUNE" :
+#            "/home/dpsynth/source/ocaml-crud/code/_esy/default/store/b/code-15bc9986/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/home/dpsynth/source/ocaml-crud/code//home/dpsynth/source/ocaml-crud/code/_esy/default/store/b/code-15bc9986/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/home/dpsynth/source/ocaml-crud/code//home/dpsynth/source/ocaml-crud/code/_esy/default/store/b/code-15bc9986/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path =
+#      [ External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__dune-opam__c__2.8.5-3e8e4c72/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ocaml_lsp_server-opam__c__1.5.0-65f829eb/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ocamlformat-opam__c__0.18.0-63125ace/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__opium-opam__c__0.20.0-1d1a2345/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ppx__deriving__yojson-opam__c__3.6.1-c9d3477b/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-d310f80a/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-ed6217b4/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__base_threads-opam__c__base-f93e1d7d/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__base_unix-opam__c__base-dc4b97fb/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__csexp-opam__c__1.5.1-957b1a48/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__dot_merlin_reader-opam__c__4.1-35b12a11/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__dune_build_info-opam__c__2.8.5-df467bcd/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.9.1-6131b28f/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ppx__yojson__conv__lib-opam__c__v0.14.0-64390e70/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__result-opam__c__1.5-8432b9dd/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.3.0-20b49a1d/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__base-opam__c__v0.14.1-f86bbe85/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-ebb20690/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__fix-opam__c__20201120-07003dbb/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__fpath-opam__c__0.7.3-07aef6c3/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__menhir-opam__c__20210419-5f5908e4/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__menhirlib-opam__c__20210419-24210b5a/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__menhirsdk-opam__c__20210419-1551b577/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ocaml_version-opam__c__3.1.0-cd63e2aa/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__odoc-opam__c__1.5.2-23dc280d/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ppxlib-opam__c__0.22.0-1c40eeb2/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__re-opam__c__1.9.0-c0852a8d/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__stdio-opam__c__v0.14.0-1a6b1217/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__uuseg-opam__c__13.0.0-c19e96b3/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__uutf-opam__c__1.0.2-e85a94ea/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__astring-opam__c__0.8.5-f7ac1a53/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__base64-opam__c__3.5.0-80832211/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__conf_libev-opam__c__4-11-4f6f8201/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__fmt-opam__c__0.8.9-fc5e9f09/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__httpaf_lwt_unix-opam__c__0.7.1-6b575ee3/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__logs-opam__c__0.7.0-2cfa4119/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__lwt-opam__c__5.4.0-b93fd656/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__magic_mime-opam__c__1.1.3-fedb7f4a/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__mirage_crypto-opam__c__0.10.0-22c88dd2/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__mtime-opam__c__1.2.0-11800413/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__multipart_form_data-opam__c__0.3.0-2efc9353/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ptime-opam__c__0.8.5-b72ce168/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__rock-opam__c__0.20.0-abf3bb2a/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__tyxml-opam__c__4.4.0-3f7e60e6/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__uri-opam__c__4.1.0-35446787/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ppx__deriving-opam__c__5.2.1-bfd2c080/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-91e8d334/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__cppo-opam__c__1.6.7-f805b19c/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-4e310f0e/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__dune_configurator-opam__c__2.8.5-370587ed/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__sexplib0-opam__c__v0.14.0-59913f10/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-12f25b3d/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__topkg-opam__c__1.0.3-d9547b45/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ocaml_compiler_libs-opam__c__v0.12.3-eba9af9d/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__2.1.0-e470b6ee/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-2383f11d/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__seq-opam__c__base-64a8e322/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__uucp-opam__c__13.0.0-372e5b25/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__uchar-opam__c__0.0.2-5475854a/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__faraday_lwt_unix-opam__c__0.7.2-b4e207cf/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__httpaf-opam__c__0.7.1-5dbcd800/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__mmap-opam__c__1.1.0-9f8e2ab6/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ocaml_syntax_shims-opam__c__1.0.0-46c839dc/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__ocplib_endian-opam__c__1.1-ef2e0d83/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__bigarray_compat-opam__c__1.0.0-0436739f/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__conf_pkg_config-opam__c__2-75f4dfdd/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__cstruct-opam__c__6.0.0-6aa03ec8/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__eqaf-opam__c__0.7-9ca3b6f5/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__lwt__ppx-opam__c__2.0.2-793dd055/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__stringext-opam__c__1.6.0-ace40ad3/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__bigstringaf-opam__c__0.7.0-488714c4/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__hmap-opam__c__0.8.1-a94dfd9b/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__angstrom-opam__c__0.15.0-1e7cfb2e/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__faraday_lwt-opam__c__0.7.2-906e663c/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__faraday-opam__c__0.7.2-6d5703e0/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/opam__s__base_bytes-opam__c__base-9f109685/lib"
+#      ; External
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/yarn_pkg_config-f6e75d1b/lib"
+#      ; External
+#          "/home/dpsynth/.nvm/versions/node/v15.13.0/lib/node_modules/esy/3/i/esy-2c95689b/lib"
+#      ; External "/home/dpsynth/.opam/default/lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0"
+#      ; standard_library_default =
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/lib/ocaml"
+#      ; standard_library =
+#          "/home/dpsynth/.esy/3_________________________________________________________________/i/ocaml-4.12.0-bfdfbfff/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-ldl"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-ldl" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "as" ]
+#      ; asm_cfi_supported = false
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-pc-linux-gnu"
+#      ; target = "x86_64-pc-linux-gnu"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+# Workspace root: /home/dpsynth/source/ocaml-crud/code

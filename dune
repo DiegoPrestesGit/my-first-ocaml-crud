@@ -1,3 +1,2 @@
 (executable
- (name crud)
- (libraries opium))
+ (name crud))

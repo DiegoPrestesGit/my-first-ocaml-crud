@@ -1,1 +1,3 @@
-code/node_modules
+_esy
+node_modules
+*.install

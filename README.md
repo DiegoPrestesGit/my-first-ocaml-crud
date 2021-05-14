@@ -17,6 +17,6 @@
 
 ## HELPFULL COMMANDS
 
-- ``esy``
-- ``dune``
-- 
+- ``esy install`` to run the install dependencies
+- ``esy dune build`` to build the project
+- ``esy dune exec ./crud.exe`` to run the project

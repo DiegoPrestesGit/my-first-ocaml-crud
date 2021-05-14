@@ -1,4 +1,0 @@
-(executable
- (name crud)
- (libraries opium)
- (preprocess (pps ppx_deriving_yojson)))

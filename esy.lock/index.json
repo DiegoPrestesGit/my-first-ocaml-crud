@@ -45,7 +45,9 @@
       "dependencies": [
         "ocaml@4.12.0@d41d8cd9", "@opam/yojson@opam:1.7.0@7056d985",
         "@opam/ppx_deriving_yojson@opam:3.6.1@faf11a7c",
-        "@opam/opium@opam:0.20.0@c4f81623", "@opam/dune@opam:2.8.5@83fb0224"
+        "@opam/opium@opam:0.20.0@c4f81623",
+        "@opam/ocaml-lsp-server@opam:1.6.0@e9e7f839",
+        "@opam/dune@opam:2.8.5@83fb0224"
       ],
       "devDependencies": [
         "@opam/ocamlformat@opam:0.18.0@be695bbf",

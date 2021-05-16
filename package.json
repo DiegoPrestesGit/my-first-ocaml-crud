@@ -1,11 +1,12 @@
 {
   "name": "making-a-crud-in-ocaml",
   "dependencies": {
-    "ocaml": "4.12.x",
     "@opam/dune": "*",
+    "@opam/ocaml-lsp-server": "1.6.0",
     "@opam/opium": "*",
     "@opam/ppx_deriving_yojson": "*",
-    "@opam/yojson": "*"
+    "@opam/yojson": "*",
+    "ocaml": "4.12.x"
   },
   "devDependencies": {
     "@opam/ocaml-lsp-server": "*",

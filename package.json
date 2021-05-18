@@ -1,5 +1,5 @@
 {
-    "name": "making-a-crud-in-ocaml",
+    "name": "crud-ocaml",
     "dependencies": {
         "@opam/dune": "*",
         "@opam/ocaml-lsp-server": "1.6.0",

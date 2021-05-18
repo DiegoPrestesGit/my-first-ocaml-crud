@@ -1,11 +1,11 @@
 (lang dune 2.8)
 
-(name making-a-crud-in-ocaml)
+(name crud-ocaml)
 
 (generate_opam_files true)
 
 (package
- (name making-a-crud-in-ocaml)
+ (name crud-ocaml)
  (depends
   (ocaml
    (>= "4.08.0"))

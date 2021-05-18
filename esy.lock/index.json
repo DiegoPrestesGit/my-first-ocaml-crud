@@ -1,6 +1,6 @@
 {
   "checksum": "58aee1bd8317de123dbd73d093960fbe",
-  "root": "making-a-crud-in-ocaml@link-dev:./package.json",
+  "root": "crud-ocaml@link-dev:./package.json",
   "node": {
     "yarn-pkg-config@github:esy-ocaml/yarn-pkg-config#db3a0b63883606dd57c54a7158d560d6cba8cd79@d41d8cd9": {
       "id":
@@ -32,9 +32,9 @@
       "dependencies": [],
       "devDependencies": []
     },
-    "making-a-crud-in-ocaml@link-dev:./package.json": {
-      "id": "making-a-crud-in-ocaml@link-dev:./package.json",
-      "name": "making-a-crud-in-ocaml",
+    "crud-ocaml@link-dev:./package.json": {
+      "id": "crud-ocaml@link-dev:./package.json",
+      "name": "crud-ocaml",
       "version": "link-dev:./package.json",
       "source": {
         "type": "link-dev",

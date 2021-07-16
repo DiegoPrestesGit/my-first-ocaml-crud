@@ -1,9 +1,5 @@
 # MY FIRST CRUD IN OCAML
 
-## NOTES
-
-- set `eval $(opam config env)` in the .zshrc file (or .bashrc) if `dune` decides not to be a command;
-
 ## DEPENDENCIES
 
 - we need some to use some tools such as:

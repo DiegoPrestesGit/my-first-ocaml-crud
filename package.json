@@ -6,7 +6,7 @@
         "@opam/opium": "*",
         "@opam/ppx_deriving_yojson": "*",
         "@opam/yojson": "*",
-        "ocaml": "4.12.x"
+        "ocaml": "4.13.x"
     },
     "devDependencies": {
         "@opam/ocaml-lsp-server": "*",
